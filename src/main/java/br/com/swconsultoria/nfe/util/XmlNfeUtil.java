@@ -372,8 +372,9 @@ public class XmlNfeUtil {
     /**
      * Le o Arquivo XML e retona String
      *
+     * @param arquivo
      * @return String
-     * @throws NfeException
+     * @throws java.io.IOException
      */
     public static String leXml(String arquivo) throws IOException {
 
