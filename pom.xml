@@ -140,6 +140,27 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- ****** dependencias necessárias para gerar danfe pdf e qr-code *** -->
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.itextpdf/html2pdf -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>html2pdf</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!--**********************************************************-->
+        
     </dependencies>
 
     <build>
